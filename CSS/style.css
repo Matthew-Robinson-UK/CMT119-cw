@@ -1,0 +1,75 @@
+
+/*--------------------------Global Styling-------------------------*/
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back-button-CT{
+    opacity: 0;
+}
+/*Body*/
+
+/*Footer Nav Bar*/
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding:80px;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+/*-----------------------------home.html---------------------------*/
+
+
+.home-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+/*button (form submit button) */
+
+.enter-button{
+    font-size: 50px;
+}
+.enter-button:hover{
+    cursor: pointer;
+}
+
+/*--------------------------------CT.html---------------------------*/
+
+
+/*Body*/
+
+.CT-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*Side Navigation Bar*/
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: midnightblue;
+    width: 180px;
+    border-radius: 10px;
+}
+.sidebar a{
+text-decoration: none;
+color: white;
+padding: 8px;
+}

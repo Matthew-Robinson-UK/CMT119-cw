@@ -1,25 +1,45 @@
 
 /*--------------------------Global Styling-------------------------*/
 
+/*Body*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 /*Header*/
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 90%;
 }
-.back-button-CT{
-    opacity: 0;
+
+/*Main*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width:35vw;
+    font-size: larger;
 }
-/*Body*/
 
 /*Footer Nav Bar*/
-
+footer{
+    width: 100vw;
+    max-width: 100vw;
+    padding: 5vh;
+}
 .menu{
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding:80px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5vw;
 }
 footer a{
     text-decoration: none;
@@ -28,14 +48,11 @@ footer a{
 
 /*-----------------------------home.html---------------------------*/
 
-
-.home-body{
+.home-header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 200px;
 }
+
 
 /*button (form submit button) */
 
@@ -48,22 +65,23 @@ footer a{
 
 /*--------------------------------CT.html---------------------------*/
 
+/*Header*/
 
+.back-button-CT{
+    opacity: 0;
+}
 /*Body*/
-
 .CT-container{
     display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
-
 /*Side Navigation Bar*/
 
 .sidebar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 50px;
+    gap: 5vh;
     background-color: midnightblue;
     width: 180px;
     border-radius: 10px;

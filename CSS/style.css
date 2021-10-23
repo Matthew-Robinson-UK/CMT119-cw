@@ -67,9 +67,6 @@ footer a{
 
 /*Header*/
 
-.back-button-CT{
-    opacity: 0;
-}
 /*Body*/
 .CT-container{
     display: flex;

@@ -1,6 +1,11 @@
 
 /*--------------------------Global Styling-------------------------*/
 
+/*Typography*/
+p{
+    font-weight: 550;
+    font-size: larger;
+}
 /*Body*/
 
 body{
@@ -10,6 +15,7 @@ body{
     justify-content: space-between;
     min-height: 100vh;
 }
+
 /*Header*/
 
 header{
@@ -19,6 +25,19 @@ header{
     min-width: 90%;
 }
 
+/*Content*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*Footer Nav Bar*/
 
 footer{
@@ -56,6 +75,7 @@ footer a:hover{
     border-radius: 5px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
+    width: 190px;
 }
 .back-button:hover{
     cursor: pointer;
@@ -65,27 +85,22 @@ footer a:hover{
     border-radius: 5px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
+    width: 190px;
 }
 .next-button:hover{
     cursor: pointer;
     color: rgb(14, 74, 77);
 }
 
-/*-----------------------------home.html---------------------------*/
+/*-----------------------------index.html---------------------------*/
 
 .home-header{
     display: flex;
     justify-content: center;
 }
 
-
-/*button (form submit button) */
-
-
-
 /*--------------------------------CT.html---------------------------*/
 
-/*Header*/
 
 /*Body*/
 .CT-container{
@@ -110,4 +125,25 @@ padding: 8px;
 }
 .sidebar a:hover{
     color: rgb(14, 74, 77);
+}
+
+/*--------------------------------biography---------------------------*/
+
+img{
+    max-width: 75%;
+}
+figcaption{
+    max-width: 75%;
+}
+
+/*--------------------------------references---------------------------*/
+
+/*List*/
+
+ul{
+    font-size:x-large;
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
 }

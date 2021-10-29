@@ -103,10 +103,12 @@ footer a:hover{
 
 
 /*Body*/
+
 .CT-container{
     display: flex;
     gap: 20px;
 }
+
 /*Side Navigation Bar*/
 
 .sidebar{
@@ -126,10 +128,12 @@ padding: 8px;
 .sidebar a:hover{
     color: rgb(14, 74, 77);
 }
-
+img{
+    max-height: 75vh;
+}
 /*--------------------------------biography---------------------------*/
 
-img{
+.bio_image{
     max-width: 75%;
 }
 figcaption{

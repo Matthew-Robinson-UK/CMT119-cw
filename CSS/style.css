@@ -37,6 +37,10 @@ figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 60vw;
+}
+figcaption{
+    max-width: 75%;
 }
 /*Footer Nav Bar*/
 
@@ -50,6 +54,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     gap:5vw;
+    flex-wrap: wrap;
 }
 footer a{
     text-decoration: none;
@@ -75,7 +80,8 @@ footer a:hover{
     border-radius: 5px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    width: 190px;
+    
+    
 }
 .back-button:hover{
     cursor: pointer;
@@ -85,13 +91,13 @@ footer a:hover{
     border-radius: 5px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    width: 190px;
+   
+    
 }
 .next-button:hover{
     cursor: pointer;
     color: rgb(14, 74, 77);
 }
-
 /*-----------------------------index.html---------------------------*/
 
 .home-header{
@@ -108,7 +114,10 @@ footer a:hover{
     display: flex;
     gap: 20px;
 }
-
+img{
+    max-height: 75vh;
+    max-width: 50vh;
+}
 /*Side Navigation Bar*/
 
 .sidebar{
@@ -119,6 +128,7 @@ footer a:hover{
     background-color: midnightblue;
     width: 180px;
     border-radius: 10px;
+    max-height: 50vh;
 }
 .sidebar a{
 text-decoration: none;
@@ -128,17 +138,13 @@ padding: 8px;
 .sidebar a:hover{
     color: rgb(14, 74, 77);
 }
-img{
-    max-height: 75vh;
-}
+
 /*--------------------------------biography---------------------------*/
 
 .bio_image{
-    max-width: 75%;
+    max-width: 75vw;
 }
-figcaption{
-    max-width: 75%;
-}
+
 
 /*--------------------------------references---------------------------*/
 
